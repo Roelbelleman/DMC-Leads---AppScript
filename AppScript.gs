@@ -16,8 +16,7 @@ function trigger(e) {
 function takeScreenshot(e) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var url = sheet.getRange("G" + e.getRow()).getValue();
-  const apiKey = "5S6k0XoVtOXixXeu"; // Replace with your API key
-  const apiSecret = "8e92f8533a8644b197a9c4b6e3d8c5ca"; // Replace with your API secret
+  const apiKey = "lzsYYf27CP3Fpz4b"; // Replace with your API key
   var format = "jpeg"; 
 
   // Construct the query string
